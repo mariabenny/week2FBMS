@@ -1,0 +1,15 @@
+
+    label{                  
+        font-weight: bold; 
+        color: orange;
+    }
+    .tab1{
+        border: 5px solid red;
+        background-color: greenyellow;
+    }
+    #lastName{
+        color: blueviolet;
+    }
+    body > p{
+        font-style: italic;
+    }

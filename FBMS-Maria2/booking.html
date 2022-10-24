@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Flight Booking Page</title>
+        <!-- <link href="./css/styles.css" type="text/css" rel="stylesheet"/> -->
+        <link href="./css/main.css" type="text/css" rel="stylesheet"/>
+        <!-- <style type="text/css">
+            label{                  
+                font-weight: bold; 
+                color: purple;
+            }
+            .tab1{
+                border: 5px solid red;
+                background-color: greenyellow;
+            }
+            #lastName{
+                color: blueviolet;
+            }
+            body > p{
+                font-style: italic;
+            }
+        </style> -->
+    </head>
+    <body  background="images/img3.webp">
+        <h1 style="color:rgb(25, 215, 232)">BOOKING PAGE</h1>
+        <h2 style="color:white">Search for flights</h2>
+        <video width=""320" height="240" controls autoplay muted>
+            <source src="videos/sample.mp4" type=""video/mp4">
+        </video>
+
+        <audio controls autoplay>
+            <source src="audios/samaudio.mp3" type="audio/mpeg">
+            <source src="" type="audio/ogg">
+        </audio>
+
+        <br>
+        <br>
+        <table  class="parent" cell padding="10" border="3" align="center">
+            <tr>
+                <th>SL no</th>
+                <th>Name of the FLight</th>
+                <th>From</th>
+                <th>To</th>
+                <th>Date</th>
+                <th>Arrival time</th>
+                <th>Booking</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Air India</td>
+                <td>India</td>
+                <td>Qatar</td>
+                <td>20/10/2022</td>
+                <td>20:25</td>
+                <th><a href="bookNow.html">Book Now</a></th>
+            </tr> 
+            <tr>
+                <td>2.</td>
+                <td>Indigo</td>
+                <td>Oman</td>
+                <td>India</td>
+                <td>21/10/2022</td>
+                <td>5:30</td>
+                <th><a href="bookNow.html">Book Now</a></th>
+            </tr> 
+            <tr>
+                <td>3.</td>
+                <td>Emirates</td>
+                <td>Dubai</td>
+                <td>Singapore</td>
+                <td>21/10/2022</td>
+                <td>10:45</td>
+                <th><a href="bookNow.html">Book Now</a></th>
+            </tr> 
+        </table>
+
+
+        <br>
+        <br>
+        <br>
+
+
+    <h5 style="color:grey">PLEASE FILL OUT YOUR DETAILS HERE</h5>
+    
+        <!-- form -->
+       
+<!--Booking from end-->
+<script>
+    function saveData(){
+        //alert("hi");
+        var firstName=document.getElementById('firstName').value;
+        var lastName=document.getElementById('lastName').value;
+        var address=document.getElementById('address').value;
+
+        localStorage.setItem("firstName",firstName);
+        localStorage.setItem("lastName",lastName);
+        localStorage.setItem("address",address);
+
+    }
+</script>
+            
+        
+        <a href="index.html" style="color:rgb(233, 159, 201)" > BACK TO LOGIN PAGE</a>
+    </body>
+</html>

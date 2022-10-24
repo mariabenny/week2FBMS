@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Internal </title>
+    <link href="./css/main1.css" type="text/css" rel="stylesheet">
+    <!-- <style type="text/css">
+        label{                  
+            font-weight: bold; 
+            color: purple;
+        }
+        .tab1{
+            border: 5px solid red;
+            background-color: greenyellow;
+        }
+        #lastName{
+            color: blueviolet;
+        }
+        body > p{
+            font-style: italic;
+        }
+    </style> -->
+</head>
+<body>
+    <p>
+        ABCDEFGHIJKLMNOPQRSTUVWXXYZ  ABCDEFGHIJKLMNOPQRSTUVWXXYZ ABCDEFGHIJKLMNOPQRSTUVWXXYZ  ABCDEFGHIJKLMNOPQRSTUVWXXYZ
+    </p>
+    <p>
+        1234567890 1234567890  1234567890  1234567890  1234567890  1234567890  1234567890  1234567890  1234567890 
+    </p>
+    <div>
+        <p>
+            Hi Hi Hi Hi Hi Hi  Hi  Hi  Hi  Hi  Hi  Hi Hi  Hi  Hi  Hi  Hi  
+        </p>
+    </div>
+     <!-- form -->
+     <form action="print.html" method="POST">
+        <table  class="tab1" cellspacing="6" cellpadding="2">
+            <tr>
+                <td>
+                    <label for="title">Title</label>
+                </td>
+                <td>
+                    <select name="title" id="title" multiple>
+                        <option value="1" >Mr.</option>
+                        <option value="2" >Mrs.</option>
+                        <option value="3" >Ms</option>
+                     </select>
+                </td>
+            </tr>
+           
+            <tr>
+                <td>
+                    <label for="first name">First Name:</label>
+                </td>
+                <td>
+                    <input  type="text" id="firstName" name="firstName"  placeholder="Your First Name"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="last name">Last Name:</label>
+                </td>
+                <td>
+                    <input  type="text" id="lastName" name="lastName"  placeholder="Your last Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Address">Address:</label>
+                </td>
+                <td>
+                    <textarea id="address" name="address"  placeholder="Address" row="6" cols="20"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth:</label>
+                </td>
+                <td>
+                    <input  type="date" id="dob" name="dob"  placeholder="Your date of birth"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                </td>
+                <td>
+                    <input  type="radio" id="male" name="gender"   value="1"/>Male
+                    <input  type="radio" id="female" name="gender"  value="2"/>Female
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="mobile">Mobile:</label>
+                </td>
+                <td>
+                    <input  type="text" id="mobile" name="mobile"  placeholder="Your phone number"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td>
+                    <input  type="email" id="email" name="email"  placeholder="Your Email id"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="userName">Username:</label>
+                </td>
+                <td>
+                    <input  type="text" id="userName" name="userName"  placeholder="Your Username"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td>
+                    <input  type="password" id="password" name="password"  placeholder="Your password."/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="contactYou">Can we contact you?:</label>
+                </td>
+                <td>
+                    <input  type="radio" id="yes" name="contactYou"   value="1"/>yes
+                    <input  type="radio" id="no" name="contactYou"  value="2"/>No
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="communication">Communication Preference:</label>
+                </td>
+                <td>
+                    <input  type="radio" id="email" name="communication"   value="1"/>Email
+                    <input  type="radio" id="sms" name="communication"  value="2"/>SMS
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input  type="checkbox" id="agree" name="agree"   value="1" aria-colspan="2"/>I agree to the <a href="">terms and agreements</a> of the website.
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="photo">Photo</label>
+                </td>
+                <td>
+                    <input type="file" id="photofile" name="photofile" accept="image/*,*.pdf"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="submit" onClick="javascript:saveData();"  id="submit" name="submit" value="Submit" style="background-color:blue; color:white"; />
+                    <input type="reset" id="reset" value="Reset" style="background-color:blue; color:white";/>
+                </td>
+            </tr>
+
+
+
+
+            
+        </table>
+        <!-- <button style="background-color:blue; color:white;">Submit</button>
+        <button style="background-color:blue; color:white;">Reset</button> -->
+    </form>
+</body>
+</html>

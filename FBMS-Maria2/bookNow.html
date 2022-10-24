@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body background="images/img1.jpg">
+    <h1 style="color:rgb(131, 189, 239)">BOOKING FORM</h1>
+     <!-- form -->
+     <form action="print.html" method="POST">
+        <table cellspacing="6" cellpadding="2">
+            <tr>
+                <td>
+                    <label for="first name">First Name:</label>
+                </td>
+                <td>
+                    <input  type="text" id="firstName" name="firstName"  placeholder="Your First Name"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="last name">Last Name:</label>
+                </td>
+                <td>
+                    <input  type="text" id="lastName" name="lastName"  placeholder="Your last Name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Address">Address:</label>
+                </td>
+                <td>
+                    <textarea id="address" name="address"  placeholder="Address" row="6" cols="20"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth:</label>
+                </td>
+                <td>
+                    <input  type="date" id="dob" name="dob"  placeholder="Your date of birth"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                </td>
+                <td>
+                    <input  type="radio" id="male" name="gender"   value="1"/>Male
+                    <input  type="radio" id="female" name="gender"  value="2"/>Female
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="mobile">Mobile:</label>
+                </td>
+                <td>
+                    <input  type="tel" id="mobile" name="mobile"  placeholder="Your phone number"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td>
+                    <input  type="email" id="email" name="email"  placeholder="Your Email id"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="userName">Username:</label>
+                </td>
+                <td>
+                    <input  type="text" id="userName" name="userName"  placeholder="Your Username"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td>
+                    <input  type="password" id="password" name="password"  placeholder="Your password."/>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label for="contactYou">Can we contact you?:</label>
+                </td>
+                <td>
+                    <input  type="radio" id="yes" name="contactYou"   value="1"/>yes
+                    <input  type="radio" id="no" name="contactYou"  value="2"/>No
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="communication">Communication Preference:</label>
+                </td>
+                <td>
+                    <input  type="radio" id="email" name="communication"   value="1"/>Email
+                    <input  type="radio" id="sms" name="communication"  value="2"/>SMS
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input  type="checkbox" id="agree" name="agree"   value="1"/>I agree to the <a href="">terms and agreements</a> of the website.
+                </td>
+            </tr>
+
+
+            
+        </table>
+        <button style="background-color:blue; color:white;">Submit</button>
+        <button style="background-color:blue; color:white;">Reset</button>
+    </form>
+    
+
+</body>
+</html>
